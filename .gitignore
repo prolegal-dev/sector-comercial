@@ -1,0 +1,10 @@
+# ── Entorno de pruebas ─────────────────────────────────────────
+_pruebas/
+
+# ── Configuración con credenciales reales ──────────────────────
+# Usar includes/db.example.php como plantilla y renombrarlo a db.php
+includes/db.php
+
+# ── Caché con datos de usuarios (PII de la API Prolegal) ───────
+cache/prolegal_users.json
+cache/*.json
